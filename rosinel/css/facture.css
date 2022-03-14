@@ -1,0 +1,23 @@
+/*logo*/
+div.col-3.icon{
+    background-color: #600e40;
+    overflow: none;
+    text-align: center;
+    color: white;
+}
+ul {
+    list-style: none;
+}
+div.contact{
+    background-color: #9a373d;
+    color: white;
+    text-align: center;
+    margin-top: 24px;
+}
+div.row div.col-3.foot{
+    background-color: #dd8037;
+}
+
+.foter {
+    border-top: black solid 2px;
+}

@@ -1,0 +1,52 @@
+*, ::before, ::after{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.5em;
+    /*background-color: #333*/;
+    color: #333; 
+}
+h1{
+    padding: 25px 0;
+    color: #f1f1f1;
+}
+/*formlulaire de recherhe*/
+.findPoke {
+    max-width: 700px;
+    min-width: 450px;
+    width: 70%;
+    margin: 30px auto;
+}
+
+.findPoke label {
+    position: absolute;
+    padding-left: 210px;
+    top: 18.5%;
+    transform: translate(-50%);
+    transition: all 0.3s ease-in;
+}
+/*animation input*/
+.findPoke:focus-within label,
+.findPoke.active-input label {
+    padding-left: 5px;
+    color: #f1f1f1;
+    top: 100px;
+    padding-left: 10%;
+}
+
+/* les cartes */
+ul.liste-poke {
+    justify-content: center;
+    text-align: center;
+    flex-wrap: wrap;
+    list-style: none;
+}
+ul.liste-poke li {
+    width: 300px;
+    height: auto;
+    padding: 15px;
+    margin: 5px;
+}
