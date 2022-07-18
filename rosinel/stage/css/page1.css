@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700;900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Alegreya+Sans:wght@300;400&family=Poppins&display=swap');
+
+
+.gauche {
+    background-color: #4EC0B0;
+}
+
+
+
+/* Titre Début */
+
+/* Web format */
+h1 {
+    font-family: 'Poppins';
+    margin-bottom: 50px;
+    font-weight: 600;
+    font-size: 60px; 
+    text-align: center;
+    line-height: 70px;
+    
+}
+ 
+/* responsive format */
+@media (max-width: 1600px) {
+    h1 {
+        font-size: 32px;
+        line-height: 36px;
+    }
+} 
+@media only screen and (max-width: 900px) {
+    .col:first-child {
+      display: none;
+  
+    }
+  }
+
+.form4 {
+    display: inline-block;
+    width: 135px;
+    margin-left: 25%;
+    font-family: 'Alegreya Sans', sans-serif;
+    font-weight: 400;
+    margin-bottom: 15%;
+    font-size: 20px;
+}
+
+.form1 {
+    display: inline-block;
+    width: 135px;
+    margin-left: 45%;
+    font-family: 'Alegreya Sans', sans-serif;
+    font-weight: 400;
+    margin-bottom: 15%;
+    font-size: 20px;
+}
+
+
+
+
+p {
+    font-family: 'Alegreya Sans', sans-serif;
+    font-weight: 400;
+    font-size: 20px; 
+    text-align: center;
+     /* line-height: 34px;  */
+}
+
+
+
+div.reponse {
+    height: 97px;
+    width: 640px;
+    border: 1px solid black;
+}
+
+.btComm {
+    margin-left: 1%;
+    margin-bottom: 1%;
+    border-radius: 0rem;
+    font-family: 'Alegreya Sans', sans-serif;
+    font-weight: 400;
+    font-size: 20px; 
+
+}
+.bleu {
+    background-color: #20A2DC;
+}
+.btn-primary {
+    border-color: white;
+}
+
+.btn-primary:hover {
+    border-color: #20A2DC;
+    background-color: #20A2DC;
+}
+
+.btn-warning {
+    border-color: white;
+    background-color: #FF8800;
+}
+
+.btn-warning:hover {
+    border-color: #FF8800;
+    background-color: #FF8800;
+}
+
+h2 {
+    text-align: center;
+}
+
+/*Select */
+

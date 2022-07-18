@@ -1,0 +1,121 @@
+
+/* Navbar Début*/
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700;900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Alegreya+Sans:wght@300;400;700&family=Poppins:wght@400;600;700;900&display=swap');
+
+
+
+:root {
+    --primary: #000000;
+}
+
+.navbar {
+    text-transform: uppercase;
+    font-family:'Poppins', sans-serif;
+    font-size: 1.1em;
+    box-shadow: 0 .5px 5px rgba(0, 0, 0, 0.157);
+    padding: 0px;
+}
+
+
+.navbar-light .navbar-nav .nav-item .nav-link {
+    margin: 0 1em;
+    height: fit-content;
+    color: var(--primary);
+    height: 80px;
+    line-height: 5;
+    height: 100% !important;
+}
+
+
+
+.btn-groups .btn:hover {
+    opacity: .8;
+}
+
+
+.btn-group .btn.primary {
+    background-color: #20A2DC;
+    color: rgb(255, 255, 255);
+}
+
+.btn-group .btn.secondary {
+    background-color: #F37150;
+    color: rgb(255, 255, 255);
+} 
+
+.navbar-light .navbar-toggler {
+    border: 0;
+    outline: none;
+    background: transparent;
+    box-shadow: none;
+}
+
+ .navbar-light  .navbar-toggler img {
+     width: 2em;
+ }
+
+ Navbar Fin
+
+
+
+.h1, h1 {
+    text-align: center;
+    font-size: 1.5em;
+}
+
+.btn-primary {
+    display: block;
+    margin: 0px auto auto auto;
+    padding: 15px 40px 15px 40px;
+    border-radius: 4px;   
+    font-size: 1.5em;
+}
+
+.btnP:hover{
+    filter: contrast(60%);
+  }
+  
+  .btnS {
+    background-color: #f37150;
+    color: white;
+    font-weight: bolder;
+    border-radius: 90px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-right: 120px;
+    padding-left: 120px;
+    border: none;
+    margin-top: 80px;
+    text-decoration: none;
+    
+  }
+  
+  .btnS:hover{
+    filter: contrast(60%);
+  }
+  
+  a:hover {
+    color: white;
+  }
+  
+  textarea:focus,
+    input[type="text"]:focus,
+    
+    .uneditable-input:focus {   
+      border-color: rgb(20, 15, 15);
+      border: #000 1px solid;
+      border-bottom: green solid 3.7px;
+      box-shadow: none;
+      outline: 0 none;
+      width: 75%;
+      margin-left: auto;
+      margin-right: auto;
+    }
+.navbar-light .navbar-nav .nav-item .nav-link:hover {
+        background-color: #FF8800 !important;
+}
+.logo {
+    width: 100px;
+}

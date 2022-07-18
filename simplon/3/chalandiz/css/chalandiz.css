@@ -1,0 +1,114 @@
+/* */
+@font-face {
+    font-family: poppins1;
+    src: url(/font/Poppins-Black.ttf);
+  }
+  @font-face {
+    font-family: poppins2;
+    src: url(/font/Poppins-Bold.ttf);
+  }
+  
+  @font-face {
+    font-family: poppins3;
+    src: url(/font/Poppins-Regular.ttf);
+  }
+  
+  @font-face {
+    font-family: poppins4;
+    src: url(/font/Poppins-SemiBold.ttf);
+  }
+  
+  @font-face {
+    font-family:roboto1 ;
+    src: url(/font/Roboto-Light.ttf);
+  }
+  
+  /* Font - F */
+  
+  .title {
+    font-family: poppins4 !important;
+    text-align: center !important;
+    line-height: 70px !important;
+    font-size: 60px !important;
+  }
+  body {
+    font-family: roboto1;
+    color: #212121;
+    line-height: 34px;
+    font-size: 20px;
+  }
+
+/* page */
+div.gauche {
+    background-color: #4ec0b0;
+}
+div.gauche > img {
+    width: 150px;
+    height: 150px;
+    background-color: white;
+    display: block;
+    margin-top: 250px;
+    margin-bottom: 250px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 90px;
+}
+div.reponse {
+    height: 350px;
+    width: 550px;
+    border: 1px solid black;
+}
+div.listeC > button{
+    margin: 2px;
+}
+
+.btComm {
+    margin-left: 1%;
+    margin-bottom: 1%;
+    border-radius: 0rem;
+    font-family: 'Alegreya Sans', sans-serif;
+    font-weight: 400;
+    font-size: 20px; 
+
+}
+.bleu {
+    background-color: #20A2DC;
+}
+.btn-primary {
+    border-color: white;
+}
+
+.btn-warning {
+    border-color: white;
+    background-color: #FF8800;
+}
+
+.btn-warning:hover {
+    border-color: #FF8800;
+    background-color: #FF8800;
+}
+.btnS {
+    background-color: #f37150;
+    color: white;
+    font-weight: bolder;
+    border-radius: 90px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-right: 120px;
+    padding-left: 120px;
+    border: none;
+    margin-left: 1px;
+  }
+
+.btnP {
+    background-color: #e2dfdf;
+    color: rgb(161, 161, 161);
+    font-weight: bolder;
+    border-radius: 90px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-right: 120px;
+    padding-left: 120px;
+    border: none;
+    margin-left: 1px;
+  }

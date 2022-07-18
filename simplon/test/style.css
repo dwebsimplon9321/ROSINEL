@@ -1,0 +1,233 @@
+  
+  .iti__flag {background-image: url("/intl-tel-input-17.0.0/build/img/flags.png");}
+
+  @media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
+    .iti__flag {background-image: url("/intl-tel-input-17.0.0/build/img/flags@2x.png");}
+  }
+
+  @font-face {
+    font-family: poppins1;
+    src: url(/stage/font/Poppins-Black.ttf);
+  }
+  @font-face {
+    font-family: poppins2;
+    src: url(/stage/font/Poppins-Bold.ttf);
+  }
+  
+  @font-face {
+    font-family: poppins3;
+    src: url(/stage/font/Poppins-Regular.ttf);
+  }
+  
+  @font-face {
+    font-family: poppins4;
+    src: url(/stage/font/Poppins-SemiBold.ttf);
+  }
+  
+  
+  div.gauche {
+
+    background-color: #4ec0b0;
+    display: none;
+  }
+
+  @media (max-height: 366px){
+    div.gauche {
+      display: none;
+    }
+  }
+
+  /*@media (max-width: 600px) {
+    div.gauche {
+        display: none;
+    }
+} */
+
+  abbr [titre]{
+    display: block;
+    background-color: #f37150;
+  }
+
+  [title] {
+    position: relative;
+    display: inline-flex;
+    text-decoration: none;
+  }
+  [title]:focus::after {
+    content: attr(title);
+    color: #0099CC;
+    width: fit-content;
+    padding: 3px;
+    font: inherit;
+  }
+
+  textarea:focus,
+  input[type="text"]:focus, input[type="url"]:focus , input[type="email"]:focus, input[type="password"]:focus,
+  
+  .uneditable-input:focus {   
+    border-color: rgb(20, 15, 15);
+    border: #000 1px solid;
+    border-bottom: green solid 3.7px;
+    box-shadow: none;
+    outline: 0 none;
+    width: 75%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+.input-group>.form-control, .input-group>.form-select  {
+  border-radius: none;
+  border-bottom: #000 2px solid;
+  padding: 14px;
+  font-size: inherit;
+  width: 75%;
+  margin-left: auto;
+  margin-right: auto;
+  flex: none;
+}
+
+.check_two {
+  width: 40px;
+  height: 40px;
+  
+}
+
+.form-check-input[type=checkbox] {
+  border-radius: 0rem;
+  
+}
+.form-check-input[type=radio] {
+  border-radius: 0rem;
+  
+}
+
+.form-check-label {
+  /* margin-top: 13px; */  
+  display: -webkit-box;
+}
+
+.txt_two {
+  margin-bottom: 34px;
+  margin-left: 25px;
+  font-family: 'Alegreya Sans', sans-serif;
+  font-weight: 400;
+  font-size: 20px;
+  /* line-height: 34px; */
+}
+
+div.error { 
+  padding: 9px;
+  margin-bottom: 9px;
+}
+
+button.btn {
+  margin: 3px;
+}
+
+input.date {
+  margin: 0px;
+}
+
+div.reponse {
+  height: 97px;
+  width: 640px;
+  border: 1px solid black;
+}
+
+select.cat:focus,
+  
+  .uneditable-input:focus {   
+    border-color: rgb(20, 15, 15);
+    border: #000 1px solid;
+    border-bottom: green solid 3.7px;
+    box-shadow: none;
+    outline: 0 none;
+    width: 75%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+select.cat {
+  border-radius: none;
+  border-bottom: #000 2px solid;
+  padding: 14px;
+  font-size: inherit;
+  width: 75%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.btnP {
+  background-color: #e2dfdf;
+  color: rgb(161, 161, 161);
+  font-weight: bolder;
+  border-radius: 90px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  padding-right: 120px;
+  padding-left: 120px;
+  border: none;
+  margin-top: 80px;
+  margin-bottom: 40px;
+  text-decoration: none;
+}
+
+.btnP:hover{
+  filter: contrast(60%);
+}
+
+.btnS {
+  background-color: #f37150;
+  color: white;
+  font-weight: bolder;
+  border-radius: 90px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  padding-right: 120px;
+  padding-left: 120px;
+  border: none;
+  margin-top: 80px;
+  margin-bottom: 40px;
+  text-decoration: none;
+  
+}
+
+.btnS:hover{
+  filter: contrast(60%);
+}
+
+h2.ptitle {
+  text-align: center;
+  font-family: 'Poppins';
+}
+
+.bleu {
+  background-color: #20A2DC;
+}
+.btn-primary {
+  border-color: white;
+    margin: 5px auto auto auto;
+    border-radius: 0px;
+}
+
+.btn-primary:hover {
+  border-color: #20A2DC;
+  background-color: #20A2DC;
+}
+
+.btn-warning {
+  border-color: white;
+  background-color: #FF8800;
+  border-radius: 0px;
+}
+
+.btn-warning:hover {
+  border-color: #FF8800;
+  background-color: #FF8800;
+}
+
+:root {
+  --error-color: #dc3545;
+  --success-color: #28a745;
+  --warning-color: #ffc107;
+}

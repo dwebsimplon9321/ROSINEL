@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700;900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Alegreya+Sans:wght@300;400&family=Poppins&display=swap');
+
+
+.gauche {
+    background-color: #4EC0B0;
+    
+}
+
+@media only screen and (max-width: 900px) {
+  .col:first-child {
+    display: none;
+
+  }
+}
+
+/* Titre Début */
+
+/* Web format */
+h1 {
+    font-family: 'Poppins', sans-serif;
+    margin-bottom: 50px;
+    font-weight: 600;
+    font-size: 60px; 
+    text-align: center;
+    line-height: 70px;
+
+    
+}
+
+/* responsive format */
+@media (max-width: 1600px) {
+    h1 {
+        font-size: 32px;
+        line-height: 36px;
+    }
+} 
+/* Titre Fin */
+
+
+.txt {
+    margin-bottom: 34px;
+    margin-top: 7px;
+    margin-left: 25px;
+    font-family: 'Alegreya Sans', sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+}
+
+
+
+@media (max-width: 1600px) {
+     .txt{
+        /* 18 à 13pt */
+        font-size: 18pt;
+        /* 22 à 15pt*/
+        line-height: 22px;
+    }
+}
+
+
+
+.check {
+    width: 40px;
+    height: 40px;
+    
+}
+
+.form-check-input[type=checkbox] {
+    border-radius: 0rem;
+    
+}
+
+.form_one {
+    margin-bottom: 20px;
+
+}

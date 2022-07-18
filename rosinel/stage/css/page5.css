@@ -1,0 +1,129 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700;900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Alegreya+Sans:wght@300;400&family=Poppins&display=swap');
+
+
+/*Partie Droite*/
+
+/* body {
+    line-height: 70px;
+} */
+
+
+
+.gauche {
+    background-color: #4EC0B0;
+}
+
+@media only screen and (max-width: 900px) {
+    .gauche {
+      display: none;
+  
+    }
+  }
+
+
+/* Titre Début */
+
+/* Web format */
+h1 {
+    font-family: 'Poppins', sans-serif;
+    margin-bottom: 50px;
+    font-weight: 600;
+    font-size: 60px; 
+    text-align: center;
+    line-height: 70px;
+    
+
+    
+}
+@media only screen and (max-width: 900px) {
+    .col:first-child {
+      display: none;
+  
+    }
+  }
+ 
+/* responsive format */
+@media (max-width: 1600px) {
+    h1 {
+        font-size: 32px;
+        line-height: 36px;
+    }
+} 
+/* Titre Fin */
+
+
+
+
+
+p {
+    text-align: center;
+    font-family: 'Alegreya Sans', sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    /* line-height: 34px; */
+
+}
+.txt_one {
+    margin-left: 5px;
+    font-family: 'Alegreya Sans', sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    /* line-height: 34px; */
+}
+.txt_two {
+    margin-bottom: 34px;
+    margin-left: 25px;
+    font-family: 'Alegreya Sans', sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    /* line-height: 34px; */
+}
+
+@media (max-width: 1600px) {
+    p, .txt_one, .txt.two{
+        /* 18 à 13pt */
+        font-size: 18pt;
+        /* 22 à 15pt*/
+        line-height: 22px;
+    }
+}
+
+
+.select {
+    margin-bottom: 100px;
+
+}
+
+
+.check_one {
+    width: 20px;
+    height: 20px;
+   
+    
+}
+.check_two {
+    width: 40px;
+    height: 40px;
+    
+}
+
+.form-check-input[type=checkbox] {
+    border-radius: 0rem;
+    
+}
+
+.form-check-label {
+    /* margin-top: 13px; */  
+    display: -webkit-box;
+}
+
+
+/* image */
+.person {
+    width: 1227px;
+    margin-left: 230px;
+    margin-top: -315px;
+}

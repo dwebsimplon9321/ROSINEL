@@ -1,0 +1,222 @@
+/* Font - D */
+
+@font-face {
+  font-family: poppins1;
+  src: url(/font/Poppins-Black.ttf);
+}
+@font-face {
+  font-family: poppins2;
+  src: url(/font/Poppins-Bold.ttf);
+}
+
+@font-face {
+  font-family: poppins3;
+  src: url(/font/Poppins-Regular.ttf);
+}
+
+@font-face {
+  font-family: poppins4;
+  src: url(/font/Poppins-SemiBold.ttf);
+}
+
+@font-face {
+  font-family:roboto1 ;
+  src: url(/font/Roboto-Light.ttf);
+}
+
+/* Font - F */
+
+.title {
+  font-family: poppins4 !important;
+  text-align: center !important;
+  line-height: 70px !important;
+  font-size: 60px !important;
+}
+body {
+  font-family: roboto1;
+  color: #212121;
+  line-height: 34px;
+  font-size: 20px;
+}
+
+.col:first-child{
+    background-color: #4ec0b0;
+    justify-content: center;
+    
+}
+.col:first-child >img{
+  display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+}
+@media only screen and (max-width: 900px) {
+  .col:first-child {
+    display: none;
+
+  }
+}
+
+.btnP {
+  background-color: #e2dfdf;
+  color: rgb(161, 161, 161);
+  font-weight: bolder;
+  border-radius: 90px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  padding-right: 120px;
+  padding-left: 120px;
+  border: none;
+  margin-left: 90px;
+}
+
+.btnP:hover{
+  filter: contrast(60%);
+}
+
+.btnS {
+  background-color: #f37150;
+  color: white;
+  font-weight: bolder;
+  border-radius: 90px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  padding-right: 120px;
+  padding-left: 120px;
+  border: none;
+  /*display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin: auto;*/
+    margin-left: 90px;
+}
+
+.btnS:hover{
+  filter: contrast(60%);
+}
+
+textarea:focus,
+  input[type="text"]:focus,
+  
+  .uneditable-input:focus {   
+    border-color: rgb(20, 15, 15);
+    border: #000 1px solid;
+    border-bottom: green solid 3.7px;
+    box-shadow: none;
+    outline: 0 none;
+  }
+
+.form-control {
+  border-radius: none;
+  border-bottom: #000 2px solid;
+  padding: 14px;
+  font-size: inherit;
+}
+
+.error {
+    color: #cc0000;
+  }
+
+#my_id {
+    display: none;
+}
+
+/*Functional Styling*/
+@media (pointer: coarse), (hover: none) {
+    [title] {
+      position: relative;
+      display: inline-flex;
+      justify-content: center;
+    }
+    [title]:focus::after {
+      content: attr(title);
+      position: absolute;
+      top: 90%;
+      color: #000;
+      background-color: #fff;
+      border: 1px solid;
+      width: fit-content;
+      padding: 3px;
+      font-size: 10px;
+    }
+  
+  }
+  @media (min-width: 768px) {
+    .col-md-4 {
+      /* flex: 0 0 auto; */
+      width: 50%;
+    }
+    /*span.error {
+      margin-bottom: 90px !important;
+    }*/
+  }
+
+
+abbr [titre]{
+  display: block;
+  background-color: #f37150;
+}
+.form-controll {
+  
+  display: grid;
+  grid-template-columns: 1em auto;
+  gap: 0.5em;
+  line-height: 1.1;
+  margin-top: 20px;
+}
+/*input[type="checkbox"] {
+  appearance: none;
+  background-color: #fff;
+  margin: 0;
+  font: inherit;
+  color: currentColor;
+  width: 1.15em;
+  height: 1.15em;
+  border: 0.15em solid currentColor;
+  border-radius: 0.15em;
+  transform: translateY(-0.075em);
+  line-height: 1.1;
+  display: grid;
+  place-content: center;
+}
+input[type="checkbox"]::before {
+  content: "";
+  width: 0.65em;
+  height: 0.65em;
+  transform: scale(0);
+  transition: 120ms transform ease-in-out;
+  box-shadow: inset 1em 1em var(--form-controll-color);
+  background-color: CanvasText;
+}
+input[type="checkbox"]:checked::before {
+  transform: scale(1);
+}*/
+
+  [title] {
+    position: relative;
+    display: inline-flex;
+    text-decoration: none;
+  }
+  [title]:focus::after {
+    content: attr(title);
+    color: #0099CC;
+    width: fit-content;
+    padding: 3px;
+    font: inherit;
+  }
+  .formulaire {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .col-md-4{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .col-md-3{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  

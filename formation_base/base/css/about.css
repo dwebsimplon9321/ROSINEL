@@ -1,0 +1,121 @@
+/*~~~~~~~~~~*/
+/*
+BODY
+*/
+div.row.fof{
+    background: url("../img/background.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+    padding: 140px;
+}
+h2.to{
+    font-size: 44px;
+}
+div.row.stats{
+    background-image: linear-gradient( to right,#FFC000, #FF8A00);
+    text-align: center;
+    color: white;
+    padding-left: 99px;
+    padding-right: 149px;
+}
+p.num{
+    font-size: 44px;
+    font-weight: bold;
+    margin: 10px 0px 0px 0px;
+}
+img.band {
+    margin-top: 45px;
+}
+div.row.team{
+    background-color: #fff7df;
+    padding: 0px 0px 0px 0px;
+}
+div.cTeam{
+    margin: 280px 0px 0px 280px;
+}
+div.col.supp{
+    margin-left: 280px;
+    margin-right: 70px;
+    margin-top: 280px;
+    margin-bottom: 280px;
+}
+div.shop{
+    justify-content: flex-end;
+    margin-right: 90px;
+}
+/*
+TITRES
+*/
+@font-face {
+    font-family: proxima;
+    src: url(../font/Proxima\ Nova\ Font.otf);
+  }
+body{
+    font-family: proxima;
+    line-height: 35px;
+}
+h2.grad{
+    background: -webkit-linear-gradient( #FFC000, #FF8A00);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-weight:900;
+    font-size: 44px;    
+}
+h2.norm{
+    color: #FF8A00;
+    font-size: 44px; 
+}
+p{
+    
+    font-size: 18px;
+}
+.navbar.navbar-expand-lg.navbar-light.bg-light.bar {
+    background-color: white !important;
+    box-shadow: 0px 1px 100px 1px #b8a776; 
+}
+div.formeA {
+    padding-left: 0px;
+    height: auto;
+    overflow: none;
+}
+img.A {
+    width: auto;
+}
+img.deco {
+    margin:50px 50px 0px 0px ;
+    justify-content: space-between;
+    
+}
+div.title{
+    margin-left: 180px;
+    margin-right: 70px;
+    margin-top: 180px;
+    margin-bottom: 180px;
+}
+@media  (max-width: 1100px) {
+    div.disNone {
+      display: none;
+    }
+  }
+@media  (max-width: 1500px) {
+   
+    .navbar-expand-lg .navbar-nav .nav-link {
+        margin: 0px 0px 0px 0px;
+    }
+  }
+.nav-link, .nav-items {
+    color: #FFC000 !important;
+    border-bottom: 1px solid white;
+    margin: 0px 50px 0px 0px;
+    font-size: 20px;
+}
+
+a.logo > img {
+   margin: 20px 0px 30px 50px;
+}
+
+.bt {
+    padding: 20px 40px 20px 40px;
+}
+/*~~~~~~~~~~*/

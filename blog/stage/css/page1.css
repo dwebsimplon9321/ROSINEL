@@ -1,0 +1,160 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700;900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Alegreya+Sans:wght@300;400&family=Poppins&display=swap');
+
+
+.gauche {
+    background-color: #4EC0B0;
+}
+
+
+
+/* Titre Début */
+
+/* Web format */
+h1 {
+    font-family: 'Poppins';
+    margin-bottom: 50px;
+    font-weight: 600;
+    font-size: 60px; 
+    text-align: center;
+    line-height: 70px;
+    
+}
+ 
+/* responsive format */
+@media (max-width: 1600px) {
+    h1 {
+        font-size: 32px;
+        line-height: 36px;
+    }
+} 
+@media only screen and (max-width: 900px) {
+    .col:first-child {
+      display: none;
+  
+    }
+  }
+/* Titre Fin */
+
+/* .form-select {
+    width: 135px;
+} */
+
+
+
+
+
+.form4 {
+    display: inline-block;
+    width: 135px;
+    margin-left: 25%;
+    font-family: 'Alegreya Sans', sans-serif;
+    font-weight: 400;
+    margin-bottom: 15%;
+    font-size: 20px;
+}
+
+.form1 {
+    display: inline-block;
+    width: 135px;
+    margin-left: 45%;
+    font-family: 'Alegreya Sans', sans-serif;
+    font-weight: 400;
+    margin-bottom: 15%;
+    font-size: 20px;
+}
+
+
+
+
+p {
+    font-family: 'Alegreya Sans', sans-serif;
+    font-weight: 400;
+    font-size: 20px; 
+    text-align: center;
+     /* line-height: 34px;  */
+}
+
+
+/* Boutons Début */
+.btnP {
+  background-color: #e2dfdf;
+  color: rgb(161, 161, 161);
+  font-weight: bolder;
+  border-radius: 90px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  padding-right: 120px;
+  padding-left: 120px;
+  border: none;
+  margin-top: 80px;
+}
+
+.btnP:hover{
+  filter: contrast(60%);
+}
+
+.btnS {
+  background-color: #f37150;
+  color: white;
+  font-weight: bolder;
+  border-radius: 90px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  padding-right: 120px;
+  padding-left: 120px;
+  border: none;
+  margin-top: 80px;
+  text-decoration: none;
+  
+}
+
+.btnS:hover{
+  filter: contrast(60%);
+}
+a:hover {
+    color: white;
+}
+  
+/* Boutons Fin */
+
+
+
+
+div.reponse {
+    height: 97px;
+    width: 640px;
+    border: 1px solid black;
+}
+
+.btComm {
+    margin-left: 1%;
+    margin-bottom: 1%;
+    border-radius: 0rem;
+    font-family: 'Alegreya Sans', sans-serif;
+    font-weight: 400;
+    font-size: 20px; 
+
+}
+.bleu {
+    background-color: #20A2DC;
+}
+.btn-primary {
+    border-color: white;
+}
+
+.btn-primary:hover {
+    border-color: #20A2DC;
+    background-color: #20A2DC;
+}
+
+.btn-warning {
+    border-color: white;
+    background-color: #FF8800;
+}
+
+.btn-warning:hover {
+    border-color: #FF8800;
+    background-color: #FF8800;
+}

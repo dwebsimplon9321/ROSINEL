@@ -1,0 +1,48 @@
+.col:first-child{
+    background-color: #4ec0b0;
+
+}
+
+.error {
+    color: #FF0001;
+  }
+/*.col > img {
+
+}
+*/
+/*.col:nth-child(2){
+    text-align: left;
+}*/
+.col:nth-child(2) {
+    padding-left: 99px;
+}
+#my_id {
+    display: none;
+}
+
+/*Functional Styling*/
+@media (pointer: coarse), (hover: none) {
+    [title] {
+      position: relative;
+      display: inline-flex;
+      justify-content: center;
+    }
+    [title]:focus::after {
+      content: attr(title);
+      position: absolute;
+      top: 90%;
+      color: #000;
+      background-color: #fff;
+      border: 1px solid;
+      width: fit-content;
+      padding: 3px;
+      font-size: 10px;
+    }
+  
+  }
+  
+  @media only screen and (min-width: 1px) {
+    .col:first-child {
+      display: none;
+    }
+}

@@ -1,0 +1,39 @@
+{% extends 'b.html.twig' %}
+{% block title %}Liste{% endblock %}
+{% block body %}
+<section class="py-5 text-center container">
+    <div class="row py-lg-5">
+      <div class="col-lg-6 col-md-8 mx-auto">
+        <h1 class="fw-light">Liste</h1>
+
+        <table class="table">
+  <thead>
+    <tr>
+      <th scope="col">id</th>
+      <th scope="col">nom</th>
+      <th scope="col">prenom</th>
+      <th scope="col">email</th>
+      <th scope="col">telephone</th>
+      <th scope="col">autre information</th>
+    </tr>
+  </thead>
+  <tbody>
+  {% for adherants in adherants %}
+      <th scope="row">{{ adherants.adherantid }}</th>
+      <td>{{ adherants.nom }}</td>
+      <td>{{ adherants.prenom }}</td>
+      <td>{{ adherants.email }}</td>
+      <td>{{ adherants.portable }}</td>
+      <td><a href="https://filrouge.com.gp/detail/{{ adherants.adherantid }}" title="Afficher les details"</a> autre information </td>
+      
+      <td>
+      
+    </tr>
+
+        {% endfor %}
+  </tbody>
+</table>
+      </div>
+    </div>
+  </section>
+{% endblock %}
